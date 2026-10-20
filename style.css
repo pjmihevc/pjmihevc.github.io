@@ -16,10 +16,14 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* 1. Changes the font style of your entire website */
+  font-family: 'Libre Baskerville', serif;
+  /* 2. Sets the default text color across the page using a variable */
   color: var(--text-dark);
+  /* 3. Sets the background color of the whole page using a variable */
   background-color: var(--bg-light);
-  line-height: 1.6;
+  /* 4. Controls the vertical spacing between lines of text (higher number = more spread out) */
+  line-height: 1.7;
 }
 
 .container {
