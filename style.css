@@ -6,13 +6,19 @@
 }
 
 :root {
-  --primary: #173125;    /* Deep Navy */
-  --accent: #7D8769;     /* Electric Blue */
-  --text-dark: #1f2937;  /* Charcoal */
-  --text-light: #6b7280; /* Muted Grey */
-  --bg-light: #AE9372;   /* Off-white */
-  --card-bg: #E1D9C9;    /* Sand */
-  --border: #e5e7eb;     /* Soft Line */
+  /* 1. Core Branding Colors */
+  --primary: #1e3f20;      /* Deep Forest Green (headers, nav, main accents) */
+  --burgundy: #6b2d3c;     /* Rich Burgundy (highlight badges, key tags, footer accents) */
+  --blue-grey: #607d8b;    /* Muted Blue-Grey (subtitles, borders, secondary text) */
+
+  /* 2. UI Tints & Backgrounds */
+  --accent-tint: #f4f6f5;  /* Soft grey-green background tint for cards */
+  --bg-light: #f8f9fa;     /* Crisp off-white page background */
+  --card-bg: #ffffff;      /* Pure white card background */
+  
+  /* 3. Text & Structural Colors */
+  --text-dark: #2c3e35;    /* Deep charcoal with a hint of green for body text */
+  --border: #d1d8d3;       /* Soft neutral border line */
 }
 
 body {
