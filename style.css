@@ -251,3 +251,28 @@ body {
     flex-direction: column;
   }
 }
+
+/* Styling for your profile picture */
+.profile-img {
+  width: 180px;            /* Adjust size as needed */
+  height: 180px;           /* Keep width and height equal for a circle */
+  border-radius: 50%;      /* Makes the image a neat circle */
+  object-fit: cover;       /* Prevents stretching/distortion */
+  border: 3px solid #2563eb; /* Optional border color (matches your theme) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout to align image next to your text */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* On mobile screens, stack the photo and text vertically */
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
