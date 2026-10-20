@@ -315,3 +315,41 @@ h1, h2, h3, .nav-brand {
     text-align: center;
   }
 }
+/* --- Paste these at the bottom of style.css --- */
+
+/* Container that holds the image and text side-by-side */
+.hero-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* Space between the photo and your name */
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Automatically stacks on smaller mobile screens */
+}
+
+/* Style for the hero profile picture */
+.hero-profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  object-fit: cover;   /* Prevents the image from squishing */
+  border: 4px solid rgba(255, 255, 255, 0.8); /* Clean white border ring */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Align text nicely next to the photo */
+.hero-text {
+  text-align: left;
+}
+
+.hero-text h1 {
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #e2e8f0;
+}
