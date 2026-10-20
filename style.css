@@ -100,15 +100,20 @@ h1, h2, h3, .nav-brand {
 
 /* Hero Header */
 .hero {
-  padding: 80px 0;
-  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+  padding: 100px 20px;
+  /* Change this gradient to use your new --primary and --burgundy colors */
+  background: linear-gradient(135deg, var(--primary) 0%, #2c4a35 100%);
   color: white;
   text-align: center;
 }
 
+/* Make sure the text and buttons inside the hero pop against the dark background */
 .hero h1 {
-  font-size: 2.75rem;
-  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.hero p {
+  color: var(--blue-grey); /* Or light neutral */
 }
 
 .tagline {
