@@ -17,7 +17,7 @@
 
 body {
   /* 1. Changes the font style of your entire website */
-  font-family: "Libertinus Sans", sans-serif;
+  font-family: "Overlock", sans-serif;
   /* 2. Sets the default text color across the page using a variable */
   color: var(--text-dark);
   /* 3. Sets the background color of the whole page using a variable */
