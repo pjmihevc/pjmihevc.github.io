@@ -35,7 +35,49 @@ h1, h2, h3, .nav-brand {
   font-family: "Caudex", serif;
   color: var(--primary);
 }
+/* --- Hero Button Styling --- */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
 
+/* Primary Button (View Projects) */
+.btn-primary {
+  background-color: var(--burgundy); /* Rich burgundy accent */
+  color: #--card-bg;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Caudex", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover {
+  background-color: #55222d; /* Slightly darker burgundy on hover */
+  transform: translateY(-2px);
+}
+
+/* Secondary Button (Download Resume) */
+.btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Caudex", serif;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
 /* Style Tags with Burgundy */
 .tag {
   background-color: #fcf4f5;
