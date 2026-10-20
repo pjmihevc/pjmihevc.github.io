@@ -6,18 +6,18 @@
 }
 
 :root {
-  --primary: #5D8F5D;    /* Deep Navy */
-  --accent: #35B835;     /* Electric Blue */
+  --primary: #173125;    /* Deep Navy */
+  --accent: #7D8769;     /* Electric Blue */
   --text-dark: #1f2937;  /* Charcoal */
   --text-light: #6b7280; /* Muted Grey */
-  --bg-light: #f9fafb;   /* Off-white */
-  --card-bg: #ffffff;    /* Pure White */
+  --bg-light: #AE9372;   /* Off-white */
+  --card-bg: #E1D9C9;    /* Sand */
   --border: #e5e7eb;     /* Soft Line */
 }
 
 body {
   /* 1. Changes the font style of your entire website */
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libertinus Sans", sans-serif;
   /* 2. Sets the default text color across the page using a variable */
   color: var(--text-dark);
   /* 3. Sets the background color of the whole page using a variable */
