@@ -353,3 +353,15 @@ h1, h2, h3, .nav-brand {
   margin-bottom: 20px;
   color: #e2e8f0;
 }
+/* Custom styling for experience and project bullet points */
+.experience-bullets {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: var(--text-dark);
+}
+
+.experience-bullets li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
