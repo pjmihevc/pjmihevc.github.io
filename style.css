@@ -5,31 +5,55 @@
   box-sizing: border-box;
 }
 
+/* Color Variables & Theme */
 :root {
   /* 1. Core Branding Colors */
   --primary: #1e3f20;      /* Deep Forest Green (headers, nav, main accents) */
-  --burgundy: #6b2d3c;     /* Rich Burgundy (highlight badges, key tags, footer accents) */
-  --blue-grey: #607d8b;    /* Muted Blue-Grey (subtitles, borders, secondary text) */
+  --burgundy: #6b2d3c;     /* Rich Burgundy (tags, highlights) */
+  --blue-grey: #607d8b;    /* Muted Blue-Grey (subtitles, borders) */
 
   /* 2. UI Tints & Backgrounds */
-  --accent-tint: #f4f6f5;  /* Soft grey-green background tint for cards */
+  --accent-tint: #f4f6f5;  
   --bg-light: #f8f9fa;     /* Crisp off-white page background */
   --card-bg: #ffffff;      /* Pure white card background */
   
   /* 3. Text & Structural Colors */
-  --text-dark: #2c3e35;    /* Deep charcoal with a hint of green for body text */
+  --text-dark: #2c3e35;    /* Deep charcoal with green hint */
   --border: #d1d8d3;       /* Soft neutral border line */
 }
 
-body{
-  /* 1. Changes the font style of your entire website */
+/* Global Font & Body Settings */
+body {
   font-family: "Caudex", serif;
-  /* 2. Sets the default text color across the page using a variable */
   color: var(--text-dark);
-  /* 3. Sets the background color of the whole page using a variable */
   background-color: var(--bg-light);
-  /* 4. Controls the vertical spacing between lines of text (higher number = more spread out) */
   line-height: 1.7;
+}
+
+/* Force Headings and Nav to use Caudex & Green */
+h1, h2, h3, .nav-brand {
+  font-family: "Caudex", serif;
+  color: var(--primary);
+}
+
+/* Style Tags with Burgundy */
+.tag {
+  background-color: #fcf4f5;
+  color: var(--burgundy);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(107, 45, 60, 0.2);
+}
+
+/* Style Company Subtitles with Blue-Grey */
+.company {
+  display: block;
+  font-weight: 600;
+  color: var(--blue-grey);
+  font-size: 0.85rem;
+  margin-bottom: 10px;
 }
 
 .container {
