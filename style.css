@@ -21,9 +21,9 @@
   --border: #d1d8d3;       /* Soft neutral border line */
 }
 
-body {
+body{
   /* 1. Changes the font style of your entire website */
-  font-family: "Overlock", sans-serif;
+  font-family: "Caudex", serif;
   /* 2. Sets the default text color across the page using a variable */
   color: var(--text-dark);
   /* 3. Sets the background color of the whole page using a variable */
